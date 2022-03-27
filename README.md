@@ -1,11 +1,11 @@
-### Hi there 👋, I'm Vijayabalan Balakrishnan
+### Hi there 👋, I'm Mounika Kanda
 
-#### Learn-Grow-Support Cancer Children
+#### Cloudnloud Tech Community
 
 
-![Learn-Grow-Support Cancer Children](https://github.com/cloudnloud/meetup/blob/main/cnl.png)
+![Learn-Grow-Invite your friends](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Community-banner.png)
 
-Past 9 years Cloudnloud Cancer NGO helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
+Past 11 years Cloudnloud Tech Community helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
 
 ### Skills: 
 
@@ -22,19 +22,27 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 💬 Ask me about Any Europe Jobs Related. 
 - 💬 Ask me about Any Europe Visa Sponsorship Related.
 - 💬 Ask me about Any Solution Architecture Related.
-- 😄 Pronouns: you can call me as vijay.
-- 🙏 I’m looking for more hands in this cloudnloud Cancer NGO initiatives.
-- 🙏 Join with me on this Children Cancer NGO initiatives.
-- 📫 How to reach me: vijay@cloudnloud.com.
- 
+- 😄 Pronouns: you can call me as **Cloud Crusader**.
+- 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
+- 📫 How to reach me: mounika@cloudnloud.com.
+- 📫 How to reach me Only Whatsapp : +91-8939984529.
+
+### How to install and configure Jenkins in Rocky Linux :
+👇
+  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Jenkins-Installation.md
+
+### How to install and configure Jenkins in Rocky Linux :
+👇
+  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Artifactory%20and%20Tomcat%20Installation.md
+  
 
 ### Find All Cloud/DevOps Architect Trainings with Step-by-Step Handson with Use cases:
 - Click below Picture 👇
 
-[![Watch the video](https://github.com/cloudnloud/meetup/blob/main/cover.png)](https://www.youtube.com/channel/cloudnloud)
+[![Watch the video](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Free-Trainings.png)](https://www.youtube.com/channel/cloudnloud)
 
 <h3 align="left">Connect with Me:</h3>
-<a href="https://linkedin.com/in/vijaystack" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/mounistack/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
 
 
 <h3 align="left">Connect with Us to know your talents:</h3>
@@ -44,19 +52,3 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 <a href="https://fb.com/cloudnloudtech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="cloudnloudtech" height="30" width="40" /></a>
 <a href="https://twitter.com/cloudnloud" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cloudnloud" height="30" width="40" /></a>
 </p>
-
- 
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=cloudnloud)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cloudnloud)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=cloudnloud&show_icons=true&count_private=true)  
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=cloudnloud)  
-
-![GitHub metrics](https://metrics.lecoq.io/cloudnloud)  
-
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=cloudnloud)  
-
-![Profile views](https://gpvc.arturio.dev/cloudnloud)
