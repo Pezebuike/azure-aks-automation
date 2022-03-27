@@ -158,6 +158,12 @@ docker-compose up -d
 docker images
 ```
 
+- list the running docker container
+
+```
+docker ps -a
+```
+
 # Step 4: Test sample application
 
 - Test application locally
