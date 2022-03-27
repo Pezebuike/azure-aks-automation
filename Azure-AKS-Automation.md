@@ -3,8 +3,9 @@
 # Before start this excercise,you must have running Rocky linux 8 machine.
 
 # AZURE VM
- - create 1 rocky linux 8 machine in AZURE Cloud
- - make sure you opened RDP,http,8080 ports for this new linux AZURE VM
+ - create 1 rocky linux 8.5 machine in AZURE Cloud Portal
+ - Note that this will work only in 'Pay-As-You-Go' Subscription and not on Free Tier
+ - make sure you opened RDP,http,8080 ports for this new linux AZURE VM or you can also open any port by using port*any
  
 # Steps
 
