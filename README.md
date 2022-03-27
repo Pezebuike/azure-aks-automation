@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Aarthi Renganathan
+### Hi there 👋, I'm Aarthi Ranganathan
 
 #### Cloudnloud Tech Community
 
@@ -22,7 +22,7 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 💬 Ask me about Any Europe Jobs Related. 
 - 💬 Ask me about Any Europe Visa Sponsorship Related.
 - 💬 Ask me about Any Solution Architecture Related.
-- 😄 Pronouns: you can call me as **Cloud Crusader**.
+- 😄 Pronouns: you can call me as **Techno Geek**.
 - 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
 - 📫 How to reach me: aarthi@cloudnloud.com.
 - 📫 How to reach me Only Whatsapp : +91-8939984529.
