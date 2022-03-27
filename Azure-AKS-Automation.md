@@ -60,7 +60,7 @@ az login
 ## Step 2.1 - Install the required dependencies:
 
 ```
-yum install yum-utils device-mapper-persistent-data lvm2  bash-completion bash-completion-extras -y
+yum install yum-utils device-mapper-persistent-data lvm2  bash-completion -y
 ```
 
 ```
