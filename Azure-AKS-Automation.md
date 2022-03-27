@@ -87,7 +87,7 @@ yum install docker-ce -y
 - Run the below command to download the current stable release of Docker compose.
 
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 - Apply the executable permission for the binary file which we have downloaded.
