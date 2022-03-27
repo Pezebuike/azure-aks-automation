@@ -1,6 +1,6 @@
 # AZURE Kubernetes Automation
 
-# Before start this excercise,you must have running CENTOS 7 linux machine.
+# Before start this excercise,you must have running Rocky linux 8 machine.
 
 # AZURE VM
  - create 1 rocky linux 8 machine in AZURE Cloud
