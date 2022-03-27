@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Mounika Kanda
+### Hi there 👋, I'm Aarthi Renganathan
 
 #### Cloudnloud Tech Community
 
@@ -24,16 +24,13 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 💬 Ask me about Any Solution Architecture Related.
 - 😄 Pronouns: you can call me as **Cloud Crusader**.
 - 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
-- 📫 How to reach me: mounika@cloudnloud.com.
+- 📫 How to reach me: aarthi@cloudnloud.com.
 - 📫 How to reach me Only Whatsapp : +91-8939984529.
 
-### How to install and configure Jenkins in Rocky Linux :
+### How to install and configure azure kubernetes :
 👇
-  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Jenkins-Installation.md
+  * Refer -  https://github.com/cloudnloud/azure-aks-automation/blob/main/Azure-AKS-Automation.md
 
-### How to install and configure Jenkins in Rocky Linux :
-👇
-  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Artifactory%20and%20Tomcat%20Installation.md
   
 
 ### Find All Cloud/DevOps Architect Trainings with Step-by-Step Handson with Use cases:
@@ -42,7 +39,7 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 [![Watch the video](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Free-Trainings.png)](https://www.youtube.com/channel/cloudnloud)
 
 <h3 align="left">Connect with Me:</h3>
-<a href="https://www.linkedin.com/in/mounistack/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/architectaarthi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
 
 
 <h3 align="left">Connect with Us to know your talents:</h3>
