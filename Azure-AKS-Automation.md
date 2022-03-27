@@ -184,14 +184,14 @@ az group create --name myResourceGroup --location eastus
 
 
 ```
-az acr create --resource-group myResourceGroup --name cnlacr --sku Basic
+az acr create --resource-group myResourceGroup --name cnlacr123 --sku Basic
 ```
 
 - Login to the Azure Container registry
 
 
 ```
-az acr login --name cnlacr
+az acr login --name cnlacr123
 ```
 
 - List the Docker Images
@@ -212,7 +212,7 @@ az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginSe
 
 
 ```
-cnlacr.azurecr.io
+cnlacr123.azurecr.io
 ```
 
 
@@ -220,7 +220,7 @@ cnlacr.azurecr.io
 
 
 ```
-docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 cnlacr.azurecr.io/azure-vote-front:v1
+docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 cnlacr123.azurecr.io/azure-vote-front:v1
 ```
 - List the docker images
 
@@ -232,18 +232,18 @@ docker images
 - Push your prepared custom image to your newly created ACR.
 
 ```
-docker push cnlacr.azurecr.io/azure-vote-front:v1
+docker push cnlacr123.azurecr.io/azure-vote-front:v1
 ```
 
 - list the ACR repository revisions
 
 ```
-az acr repository list --name cnlacr --output table
+az acr repository list --name cnlacr123 --output table
 ```
 - List your repository in ACR.
 
 ```
-az acr repository show-tags --name cnlacr --repository azure-vote-front --output table
+az acr repository show-tags --name cnlacr123 --repository azure-vote-front --output table
 ```
 
 
@@ -288,7 +288,7 @@ az aks create \
     --name myAKSCluster \
     --node-count 1 \
     --generate-ssh-keys \
-    --attach-acr cnlacr
+    --attach-acr cnlacr123
 	
 ```
 - Install AZURE AKS CLI
@@ -325,7 +325,7 @@ vi azure-vote-all-in-one-redis.yaml
 ```
 containers:
 - name: azure-vote-front
-  image: cnlacr.azurecr.io/azure-vote-front:v1
+  image: cnlacr123.azurecr.io/azure-vote-front:v1
 ```
 - Apply the changes into AKS k8s cluster.
 
