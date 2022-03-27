@@ -16,10 +16,7 @@
 - Step 6:  Install kubectl command 
 - Step 7:  Deploy an Azure Kubernetes Service (AKS) cluster
 - Step 8:  Run applications in Azure Kubernetes Service (AKS)
-- Step 9:  Scale applications in Azure Kubernetes Service (AKS)
-- Step 10: Autoscale pods
-- Step 11: Manually scale AKS nodes (worker nodes)
-- Step 12: Update an application in Azure Kubernetes Service (AKS)
+
 
 #
 
