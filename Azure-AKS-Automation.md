@@ -326,7 +326,7 @@ vi azure-vote-all-in-one-redis.yaml
 ```
 containers:
 - name: azure-vote-front
-  image: cnlacr123.azurecr.io/azure-vote-front:v1
+  image: cnlacr1.azurecr.io/azure-vote-front:v1
 ```
 - Apply the changes into AKS k8s cluster.
 
