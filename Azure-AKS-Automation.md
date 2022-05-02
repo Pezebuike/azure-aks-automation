@@ -371,7 +371,7 @@ vi azure-vote/azure-vote/config_file.cfg
 ```
 
 ```
-# UI Configurations
+## UI Configurations
 TITLE = 'Save Cancer Children - Cloudnloud'
 VOTE1VALUE = 'Learn'
 VOTE2VALUE = 'Grow'
