@@ -2,12 +2,17 @@
 
 # Before start this excercise,you must have running Rocky linux 8 machine.
 
+# Architecture
+
+[![Watch the image](/architecture.png)]
+
+
+
 # AZURE VM
  - create 1 rocky linux 8.5 machine in AZURE Cloud Portal
  - Note that this will work only in 'Pay-As-You-Go' Subscription and not on Free Tier
  - make sure you opened RDP,http,8080 ports for this new linux AZURE VM or you can also open any port by using port*any
 
-[![Watch the image](/architecture.png)]
 
 
 # Steps
@@ -115,20 +120,6 @@ docker-compose --version
 systemctl start docker;systemctl status docker;systemctl enable docker
 ```
 
-## Step 2.6 - To verify that the Docker service is running type:
-
-```
-systemctl status docker
-```
-
-
-## Step 2.7 - Enable the Docker service to be automatically started at boot time:
-
-```
-systemctl enable docker
-```
-
-
 ## Step 2.8 - At the time of the writing of this article, the current stable version of Docker is 18.03.1, we can check our Docker version by typing:
 
 ```
@@ -145,7 +136,7 @@ yum install git tree -y
 - Download the sample azure application
 
 ```
-git clone https://github.com/Azure-Samples/azure-voting-app-redis.git
+git clone https://github.com/cloudnloud/azure-voting-app-redis.git
 ```
 
 ```
@@ -181,14 +172,14 @@ docker ps -a
 - Create AZURE resource Group
 
 ```
-az group create --name myResourceGroup --location eastus
+az group create --name  cloudnloudrg --location eastus
 ```
 
 - Create AZURE Container Registry Under the above Created Resource Group.
 
 
 ```
-az acr create --resource-group myResourceGroup --name cnlacr1 --sku Basic
+az acr create --resource-group cloudnloudrg --name cnlacr1 --sku Basic
 ```
 
 - Login to the Azure Container registry
@@ -209,7 +200,7 @@ docker images
 
 
 ```
-az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
+az acr list --resource-group cloudnloudrg --query "[].{acrLoginServer:loginServer}" --output table
 ```
 
 - you will get the below output.So your AZURE Container Registry Name is below ...
@@ -224,7 +215,7 @@ cnlacr1.azurecr.io
 
 
 ```
-docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 cnlacr1.azurecr.io/azure-vote-front:v1
+docker tag cloudnloud/azure-vote-front:v1 cnlacr1.azurecr.io/azure-vote-front:v1
 ```
 - List the docker images
 
@@ -288,7 +279,7 @@ kubectl version --client
 
 ```
 az aks create \
-    --resource-group myResourceGroup \
+    --resource-group cloudnloudrg \
     --name myAKSCluster \
     --node-count 1 \
     --generate-ssh-keys \
@@ -303,7 +294,7 @@ az aks install-cli
 - Reterive the AKS cluster credentials.This will help kubectl command to run without any issues.
 
 ```
-az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+az aks get-credentials --resource-group cloudnloudrg --name myAKSCluster
 ```
 - List all the nodes in Kubernetes cluster.
 
@@ -317,7 +308,7 @@ kubectl get nodes
 - List the ACR 
 
 ```
-az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
+az acr list --resource-group cloudnloudrg --query "[].{acrLoginServer:loginServer}" --output table
 ```
 - Change your front end to your recently deployed own image repo.
 
@@ -345,3 +336,79 @@ kubectl get service azure-vote-front --watch
 
 - from the above command output get the EXTERNAL-IP and access it from browser
 
+
+# Step 9: Scale applications in Azure Kubernetes Service (AKS)
+
+- in another mobaxtreme window run the following command
+
+```
+watch -n 1 kubectl get all -o wide
+```
+
+
+- in another mobaxtreme window run the below commands
+
+```
+kubectl get pods
+```
+- in another mobaxtreme window run the below commands
+
+```
+kubectl scale --replicas=2 deployment/azure-vote-front
+```
+
+```
+kubectl scale --replicas=4 deployment/azure-vote-front
+
+
+
+# Step 10: Update an application in Azure Kubernetes Service (AKS)
+
+- Now we need to make some change in application
+
+```
+vi azure-vote/azure-vote/config_file.cfg
+```
+
+```
+# UI Configurations
+TITLE = 'Save Cancer Children - Cloudnloud'
+VOTE1VALUE = 'Learn'
+VOTE2VALUE = 'Grow'
+SHOWHOST = 'false'
+```
+- Build the Docker image with v2.
+```
+docker-compose up --build -d
+```
+
+
+- you need to change the docker image name towards to match your ACR repo name.Or else while you push the image will end up with error.
+
+
+```
+docker tag cloudnloud/azure-vote-front:v1 cnlacr1.azurecr.io/azure-vote-front:v2
+```
+
+- Push your prepared custom image to your newly created ACR.
+
+```
+docker push cnlacr1.azurecr.io/azure-vote-front:v2
+```
+
+- Scale your pods to 3 replicas
+```
+watch -n 1 kubectl get all -o wide
+```
+```
+kubectl scale --replicas=4 deployment/azure-vote-front
+```
+- Set and prepare your deployment to new version 2
+```
+kubectl set image deployment azure-vote-front azure-vote-front=cnlacr1.azurecr.io/azure-vote-front:v2
+```
+
+- Run below command
+```
+kubectl get service azure-vote-front
+```
