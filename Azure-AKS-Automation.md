@@ -359,7 +359,7 @@ kubectl scale --replicas=2 deployment/azure-vote-front
 
 ```
 kubectl scale --replicas=4 deployment/azure-vote-front
-
+```
 
 
 # Step 10: Update an application in Azure Kubernetes Service (AKS)
@@ -376,6 +376,7 @@ TITLE = 'Save Cancer Children - Cloudnloud'
 VOTE1VALUE = 'Learn'
 VOTE2VALUE = 'Grow'
 SHOWHOST = 'false'
+
 ```
 - Build the Docker image with v2.
 ```
