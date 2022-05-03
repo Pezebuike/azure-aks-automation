@@ -9,22 +9,25 @@
 
 
 # AZURE VM
- - create 1 rocky linux 8.5 machine in AZURE Cloud Portal
+ - Create 1 Rocky Linux 8.5 machine in the AZURE Cloud Portal
  - Note that this will work only in 'Pay-As-You-Go' Subscription and not on Free Tier
- - make sure you opened RDP,http,8080 ports for this new linux AZURE VM or you can also open any port by using port*any
+ - Make sure you open RDP,http,8080 ports for this new linux AZURE VM or you can also open any port by using port*any
+ - Have Mobaxterm/ Putty installed. ** Note: We can use the PowerShell also, but in realtime production environment, Mobaxterm is the best option when we try to work on a junk server and push to the PROD.
 
 
 
 # Steps
 
-- Step 1:  Install AZURE CLI in rocky linux Machine
+- Step 1:  Install AZURE CLI in Rocky Linux Virtual Machine
 - Step 2:  First install docker in the local linux machine
-- Step 3:  Download sample application
-- Step 4:  Test sample application
+- Step 3:  Download a sample application
+- Step 4:  Test the sample application
 - Step 5:  Deploy and use Azure Container Registry
 - Step 6:  Install kubectl command 
 - Step 7:  Deploy an Azure Kubernetes Service (AKS) cluster
 - Step 8:  Run applications in Azure Kubernetes Service (AKS)
+- Step 9:  Scale application in Azure Kubernetes Service (AKS)
+- Step 10: Update the application in Azure Kubernetes Service (AKS)
 
 
 #
@@ -120,7 +123,7 @@ docker-compose --version
 systemctl start docker;systemctl status docker;systemctl enable docker
 ```
 
-## Step 2.8 - At the time of the writing of this article, the current stable version of Docker is 18.03.1, we can check our Docker version by typing:
+## Step 2.6 - At the time of the writing of this article, the current stable version of Docker is 18.03.1, we can check our Docker version by typing:
 
 ```
 docker -v
