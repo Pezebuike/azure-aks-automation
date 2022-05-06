@@ -400,7 +400,7 @@ docker tag cloudnloud/azure-vote-front:v1 cnlacr1.azurecr.io/azure-vote-front:v2
 docker push cnlacr1.azurecr.io/azure-vote-front:v2
 ```
 
-- Scale your pods to 3 replicas
+- Scale your pods to 4 replicas
 ```
 watch -n 1 kubectl get all -o wide
 ```
