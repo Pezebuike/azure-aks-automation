@@ -325,15 +325,20 @@ containers:
 - name: azure-vote-front
   image: cnlacr1.azurecr.io/azure-vote-front:v1
 ```
+- Create namespace in AKS k8s cluster.
+
+```
+kubectl create ns dev
+```
 - Apply the changes into AKS k8s cluster.
 
 ```
-kubectl apply -f azure-vote-all-in-one-redis.yaml
+kubectl apply -f azure-vote-all-in-one-redis.yaml -n dev
 ```
 - Monitor the change progress.
 
 ```
-kubectl get service azure-vote-front --watch
+kubectl get service azure-vote-front --watch -n dev
 ```
 
 
@@ -345,23 +350,23 @@ kubectl get service azure-vote-front --watch
 - in another mobaxtreme window run the following command
 
 ```
-watch -n 1 kubectl get all -o wide
+watch -n 1 kubectl get all -o wide -n dev
 ```
 
 
 - in another mobaxtreme window run the below commands
 
 ```
-kubectl get pods
+kubectl get pods -n dev
 ```
 - in another mobaxtreme window run the below commands
 
 ```
-kubectl scale --replicas=2 deployment/azure-vote-front
+kubectl scale --replicas=2 deployment/azure-vote-front -n dev
 ```
 
 ```
-kubectl scale --replicas=4 deployment/azure-vote-front
+kubectl scale --replicas=4 deployment/azure-vote-front -n dev
 ```
 
 
@@ -402,17 +407,17 @@ docker push cnlacr1.azurecr.io/azure-vote-front:v2
 
 - Scale your pods to 4 replicas
 ```
-watch -n 1 kubectl get all -o wide
+watch -n 1 kubectl get all -o wide -n dev
 ```
 ```
-kubectl scale --replicas=4 deployment/azure-vote-front
+kubectl scale --replicas=4 deployment/azure-vote-front -n dev
 ```
 - Set and prepare your deployment to new version 2
 ```
-kubectl set image deployment azure-vote-front azure-vote-front=cnlacr1.azurecr.io/azure-vote-front:v2
+kubectl set image deployment azure-vote-front azure-vote-front=cnlacr1.azurecr.io/azure-vote-front:v2 -n dev
 ```
 
 - Run below command
 ```
-kubectl get service azure-vote-front
+kubectl get service azure-vote-front -n dev
 ```
