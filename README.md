@@ -38,10 +38,14 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 
 [![Watch the video](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Free-Trainings.png)](https://www.youtube.com/channel/cloudnloud)
 
+
+[![Join our Discord server!](https://invidget.switchblade.xyz/2FB8wDG)](https://discord.gg/vbjRQGVhuF)
+
+
 <h3 align="left">Connect with Me:</h3>
 <a href="https://www.linkedin.com/in/architectaarthi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cloudnloud" height="30" width="40" /></a>
 
-[![Join our Discord server!](https://invidget.switchblade.xyz/2FB8wDG)](https://discord.gg/vbjRQGVhuF)
+
 
 <h3 align="left">Connect with Us to know your talents:</h3>
 <p align="left">
