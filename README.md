@@ -5,11 +5,11 @@
 
 ![Learn-Grow-Invite your friends](https://github.com/cloudnloud/Rockylinux/blob/main/Cloudnloud-Community-banner.png)
 
-Past 11 years Cloudnloud Tech Community helped many IT professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
+Past 11 years Cloudnloud Tech Community has helped many professionals to learn niche technologies with real-time use cases in their own lab. We strongly believe the more we fail in our own lab, the more we are confident in the real-time scenarios.
 
 ### Skills: 
 
-Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization,Data,AI,Python,Ansible,Terraform,
+Linux,Cloud,DevOps,Docker,K8s,Security,Solutions,Re-Engineering,Virtualization,Data,AI,Python,Ansible,Terraform
 
 ### Feel Free to engage me and Loud Better:
 👇
@@ -26,6 +26,7 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
 - 📫 How to reach me: aarthi@cloudnloud.com.
 - 📫 How to reach me Only Whatsapp : +91-8939984529.
+- 📫 My LinkedIn profile : @architectaarthi.
 
 ### How to install and configure azure kubernetes :
 👇
