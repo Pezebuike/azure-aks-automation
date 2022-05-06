@@ -123,7 +123,7 @@ docker-compose --version
 systemctl start docker;systemctl status docker;systemctl enable docker
 ```
 
-## Step 2.6 - At the time of the writing of this article, the current stable version of Docker is 18.03.1, we can check our Docker version by typing:
+## Step 2.6 - At the time of the writing of this article, the current stable version of Docker is 20.10.15, we can check our Docker version by typing:
 
 ```
 docker -v
